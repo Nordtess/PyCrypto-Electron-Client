@@ -19,7 +19,7 @@ Essentially, this app lets you encrypt messages using a military-grade algorithm
 
 ---
 
-## 🧰 Tech Stack (The Crew)
+## 🧰 Tech Stack
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" width="40" height="40" alt="Electron" title="Electron (The Trench Coat)"/>
