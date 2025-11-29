@@ -37,8 +37,8 @@ Essentially, this app lets you encrypt messages using a military-grade algorithm
   A quick overview of the application's functionality.
 </p>
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=2RV8DXvpLRM" target="_blank">
-    <img src="https://markdown-videos-api.vercel.app/youtube/2RV8DXvpLRM" alt="Watch the Demo Video" width="500">
+  <a href="https://youtu.be/2RV8DXvpLRM" target="_blank">
+    <img src="images/GitHub-Images/python-youtube-loggo-1.png" alt="Watch the Demo Video" width="500">
   </a>
 </p>
 
