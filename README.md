@@ -33,7 +33,7 @@ Essentially, this app lets you encrypt messages using a military-grade algorithm
 
 ## 🎥 Demo (YouTube)
 
-<<p align="center">
+<p align="center">
   <a href="https://youtu.be/2RV8DXvpLRM" target="_blank">
     <img src="images/python-youtube-loggo-1.png" alt="Watch the Demo Video" width="500">
   </a>
