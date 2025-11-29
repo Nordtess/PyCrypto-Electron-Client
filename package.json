@@ -1,0 +1,62 @@
+{
+  "name": "python-aes-electron-react",
+  "version": "1.0.0",
+  "description": "AES Encryptor/Decryptor using Electron, React (Vite) and Python",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build:react && electron .",
+    "build:react": "npm --prefix ./src run build",
+    "dev:react": "npm --prefix ./src run dev",
+    "dist": "npm run build:react && electron-builder"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "python",
+    "aes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^39.2.0",
+    "electron-builder": "^26.0.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "python-shell": "^5.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "build": {
+    "appId": "com.yourcompany.aeselectron",
+    "productName": "AES Cipher",
+    "asar": false,
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json",
+      "build/**/*",
+      "python/**/*",
+      "venv/**/*",
+      "images/**/*"
+    ],
+    "asarUnpack": [
+      "venv/**/*",
+      "python/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "images/skull2.png"
+    },
+    "win": {
+      "icon": "images/skull2.png"
+    }
+  }
+}

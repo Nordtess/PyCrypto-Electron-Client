@@ -1,0 +1,24 @@
+# -------------------------------------
+# Genererade Maps NOT uploaded to GitHub
+# -------------------------------------
+
+# NODE / NPM / Electron
+node_modules/
+build/           # Byggd React-kod
+release/         # Slutgiltiga distributionsfiler från electron-builder
+
+# PYTHON
+venv/            # Virtuell miljö
+__pycache__/
+*.pyc
+*.pyd
+
+# Redundant Node-moduler inside React-mappen
+src/node_modules/
+
+# LOGG AND VS CODE SETTINGS
+*.log
+.vscode/
+
+# Temporery files
+.DS_Store
