@@ -77,5 +77,9 @@ If you want to join the secret society (i.e., develop the app), you'll need Node
 
 ```bash
 # 1. Clone the project (You already know the secret handshake)
+git clone [https://gith
+
+```bash
+# 1. Clone the project (You already know the secret handshake)
 git clone [https://github.com/Nordtess/PyCrypto-Electron-Client](https://github.com/Nordtess/PyCrypto-Electron-Client)
 cd PyCrypto-Electron-Client
