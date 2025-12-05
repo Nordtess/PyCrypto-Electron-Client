@@ -66,7 +66,7 @@ Essentially, this app lets you encrypt messages using a military-grade algorithm
 
 ---
 
-## ⚙️ How to Develop (Recruitment)
+## ⚙️ How to Develop
 
 If you want to join the secret society (i.e., develop the app), you'll need Node.js/npm and Python 3 installed.
 
