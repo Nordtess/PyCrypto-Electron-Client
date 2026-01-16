@@ -66,19 +66,6 @@ This isn't just another crypto toy—it's a showcase of **inter-process communic
 
 ---
 
-## 🎥 Demo
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=2RV8DXvpLRM" target="_blank">
-    <img src="https://markdown-videos-api.vercel.app/youtube/2RV8DXvpLRM" alt="Watch the Demo Video" width="500">
-  </a>
-</p>
-<p align="center">
-  <strong>YouTube Demo:</strong> See the encryption and decryption workflow in action.
-</p>
-
----
-
 ## 🖼️ Screenshots
 
 <p align="center">
