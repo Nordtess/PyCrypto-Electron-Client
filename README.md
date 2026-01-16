@@ -270,8 +270,6 @@ PyCrypto-Electron-Client/
 **Nordtess**  
 _Full-Stack Developer & Security Enthusiast_
 
-Connect: [GitHub](https://github.com/Nordtess) | [Portfolio](#)
-
 ---
 
 ## 📜 License
