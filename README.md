@@ -268,7 +268,7 @@ PyCrypto-Electron-Client/
 ## 👨‍💻 Author
 
 **Nordtess**  
-_Full-Stack Developer & Security Enthusiast_ wannabe
+_Full-Stack Developer & Security Enthusiast_ (tryhard wannabe)
 
 ---
 
