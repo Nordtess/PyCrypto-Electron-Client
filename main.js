@@ -9,7 +9,8 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const { PythonShell } = require('python-shell');
 
-const isDev = process.env.NODE_ENV !== 'production';
+// Always use built files (change to true if you want to use dev server)
+const isDev = false;
 
 console.log("--- MAIN PROCESS STARTED ---");
 console.log(`Development mode (isDev): ${isDev}`);
@@ -55,16 +56,15 @@ app.on('window-all-closed', () => {
 
 // IPC handler for Python AES encryption/decryption
 ipcMain.handle('run-python-aes', async (event, operation, text, key) => {
-  const scriptDir = isDev
-    ? path.join(__dirname, 'python')
-    : path.join(process.resourcesPath, 'python');
+  // Always use the python folder in the project root
+  const scriptDir = path.join(__dirname, 'python');
 
   const options = {
     mode: 'text',
     pythonOptions: ['-u'],
     scriptPath: scriptDir,
-    args: [operation, text, key],
-    pythonPath: path.join(__dirname, 'venv', process.platform === 'win32' ? 'Scripts' : 'bin', 'python' + (process.platform === 'win32' ? '.exe' : ''))
+    args: [operation, text, key]
+    // Let python-shell use system Python (no venv)
   };
 
   try {
